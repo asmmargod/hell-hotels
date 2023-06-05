@@ -1,0 +1,47 @@
+////////////
+/// index page
+///
+.hotel__page {
+  background-image: linear-gradient(to right bottom, var(--color-background-light), var(--color-background-medium), var(--color-background-dark));
+  background-size: 400% 400%;
+
+  min-height: 100vh;
+
+  animation: gradient 5s ease infinite;
+}
+
+//////////////////
+/// flight page
+///
+.flight__page {
+  background-image: linear-gradient(to right bottom, #2c3639, #5a929c, #8ac3d1);
+  background-size: 400% 400%;
+
+  min-height: 100vh;
+
+  animation: gradient 5s ease infinite;
+}
+
+//////////////////
+/// cars page
+///
+.cars__page {
+  background-image: linear-gradient(to right bottom, #2c3639, #3f4e4f, #506d6a);
+  background-size: 400% 400%;
+
+  min-height: 100vh;
+
+  animation: gradient 5s ease infinite;
+}
+
+//////////////////
+/// walks page
+///
+.walks__page {
+  background-image: linear-gradient(to right bottom, #557153, #7d8f69, #a9af7e);
+  background-size: 400% 400%;
+
+  min-height: 100vh;
+
+  animation: gradient 5s ease infinite;
+}

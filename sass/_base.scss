@@ -1,0 +1,87 @@
+/*
+font-family: 'Kanit', sans-serif; 100,200,400,800
+font-family: 'Limelight', cursive;
+*/
+
+:root {
+  --color-background-dark: #8d7b68;
+  --color-background-medium: #a4907c;
+  --color-background-light: #c8b6a6;
+  --color-background-v-light: #f1dec9;
+  --color-background-x-light: #f8efe4;
+  --color-background-xx-light: #fcf6ef;
+
+  --color-main-light: #f9dbbc;
+  --color-main-medium: #64584b;
+  --color-main-dark: #322c26;
+  --color-text-dark: #4f453c;
+  --color-text-medium: #9e8f81;
+  --color-text-light: #d8b89c;
+  --color-highlight-red: #be2f04;
+  --color-highlight-green: #019e48;
+
+  --color-grey-dark-1-opaque: rgba(51, 51, 51, 0.8);
+  --color-grey-dark-2-opaque: rgba(65, 40, 9, 0.8);
+  --color-grey-dark-3-opaque: rgba(141, 123, 104, 0.404);
+
+  --shadow-dark: 0.1rem 2rem 4rem rgba(24, 22, 19, 0.3);
+  --shadow-light: 0rem 0.2rem 5rem rgba(241, 222, 201, 0.3);
+
+  --line: 1px solid var(--color-main-medium);
+  --line-light: 1px solid var(--color-text-medium);
+}
+
+$bp-largest: 90.62em; //1450 px
+$bp-large: 68.75em; //1100px
+$bp-medium: 56.25em; //900px
+$bp-small: 43.75em; //700px
+$bp-smallest: 31.25em; //500px
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; //1rem = 10px- 10px/16 = 62.5%
+
+  @media only screen and (max-width: $bp-large) {
+    font-size: 50%;
+  }
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--color-text-dark);
+}
+
+///////////////
+/// gradient for icons in side nav
+#gradient-horizontal {
+  --color-stop-1: #efed70;
+  --color-stop-2: #fa7c34;
+  --color-stop-3: #4e3124;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+// add.eventlistener

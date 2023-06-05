@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"path": "../fylo-dark-theme-landing-page-master"
+	},
+	{
+		"path": "../../ADVANCED CSS-course-master/Trillo/starter"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "CSS Flexbox learing page"
+  }
+}
